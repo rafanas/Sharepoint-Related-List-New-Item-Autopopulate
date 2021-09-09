@@ -25,9 +25,8 @@ This script solves the issue of auto-populating a field on a related list when a
 I want to auto-populate the "Case Number" in my form:
 
 ![Sharepoint Form](https://i.ibb.co/QQDkcw4/Screen-Shot-2021-09-09-at-1-51-38-PM.png)
-Format: ![Alt Text](url)
 
-I add the new Web Part and paste the following code:
+I add a new Web Part and paste the following code:
 
 ```javascript
 /* Get the parent list URL */
@@ -53,7 +52,7 @@ function populateFields(){
 _spBodyOnLoadFunctionNames.push("populateFields");
 ```
 
-**I replaced "THE TITLE OF YOUR FIELD LOOKUP FIELD" with "Case Number"**
+**I replace "THE TITLE OF YOUR FIELD LOOKUP FIELD" with "Case Number"**
 
 ```javascript
   $("select[title='Case Number']").val(queryListId("Case Number")).attr('disabled', true);
@@ -65,4 +64,4 @@ Save.
 I go back to my list, add a new item, and the Case Number field is now populated with its parent.
 
 ![Sharepoint Form](https://i.ibb.co/5xB8jyY/Screen-Shot-2021-09-09-at-2-12-15-PM.png)
-Format: ![Alt Text](url)
+
