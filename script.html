@@ -18,9 +18,9 @@ function queryListId(){
 /* This function will populate the fields that you target using jQuery */
 function populateFields(){
     /* Target a select field by its title, replace its value with the parent lookup field value and disable it to keep consistency*/
-  $("select[title='THE TITLE OF YOUR FIELD LOOKUP FIELD']").val(queryListId("THE TITLE OF YOUR FIELD LOOKUP FIELD")).attr('disabled', true);
+  $("select[title='THE TITLE OF YOUR FIELD LOOKUP ']").val(queryListId("THE TITLE OF YOUR FIELD LOOKUP ")).attr('disabled', true);
 }
 
-/* Execute Populate Fields function*/
-populateFields();
+/* Ask Sharepoint to load our functions after loading everything else*/
+_spBodyOnLoadFunctionNames.push("populateNewForm");
 </script>
