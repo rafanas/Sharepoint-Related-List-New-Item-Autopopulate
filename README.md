@@ -16,14 +16,14 @@ This script solves the issue of auto-populating a field on a related list when a
 * Select Media and Content -> Script editor
 * Paste the contents of file script.html 
 * Replace both instances of THE TITLE OF YOUR FIELD LOOKUP FIELD with the name of your lookup field
-* Make sure the web part is at the bottom of the form.
-* To move it down -> Click Edit Web Part -> Layout -> Set Zone Index 2 or larger depending on the number of web parts.
+* **Make sure the web part is at the bottom of the form.**
+ * To move it down -> Click Edit Web Part -> Layout -> Set Zone Index 2 or larger depending on the number of web parts.
 * Save
 
 ## Example:
 
 I want to auto-populate the "Case Number" in my form:
-![SP] (https://i.ibb.co/QQDkcw4/Screen-Shot-2021-09-09-at-1-51-38-PM.png)
+![SP](https://i.ibb.co/QQDkcw4/Screen-Shot-2021-09-09-at-1-51-38-PM.png)
 Format: ![Alt Text](url)
 
 I add the new Web Part and paste the following code:
