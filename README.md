@@ -37,7 +37,7 @@ function queryListId(){
   /* Split the parent list url after "&" into separate strings */ 
   const firstSplit = listUrl.split("&");
   /* We know the first string of the new array contains the ID, so we split it again to isolate the ID number */ 
-  var secondSplit = firstSplit[0].split("=");
+  const secondSplit = firstSplit[0].split("=");
   /* Pass the ID number which is the second string in the secondSplit array */
   return secondSplit[1];
 }
