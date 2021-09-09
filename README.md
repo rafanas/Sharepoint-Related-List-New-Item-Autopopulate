@@ -5,8 +5,6 @@ This script solves the issue of auto-populating a field on a related list when a
 ## Requirements:
 
 * The parent and child list should both share the same Lookup Field. 
-* The new item form should open on a new page instead of a dialog. 
-  * If it opens in a dialog -> go to list settings, advanced settings -> set NO to "Launch forms in a dialog?"
 
 ## Instructions:
 
