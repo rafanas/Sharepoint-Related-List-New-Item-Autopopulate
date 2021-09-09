@@ -23,8 +23,9 @@ This script solves the issue of auto-populating a field on a related list when a
 ## Example:
 
 I want to auto-populate the "Case Number" in my form:
-(https://i.ibb.co/QQDkcw4/Screen-Shot-2021-09-09-at-1-51-38-PM.png)
-Format: !(url)
+
+![Sharepoint Form](https://i.ibb.co/QQDkcw4/Screen-Shot-2021-09-09-at-1-51-38-PM.png)
+Format: ![Alt Text](url)
 
 I add the new Web Part and paste the following code:
 
@@ -63,5 +64,5 @@ Save.
 
 I go back to my list, add a new item, and the Case Number field is now populated with its parent.
 
-!(https://i.ibb.co/5xB8jyY/Screen-Shot-2021-09-09-at-2-12-15-PM.png)
-Format: !(url)
+![Sharepoint Form](https://i.ibb.co/5xB8jyY/Screen-Shot-2021-09-09-at-2-12-15-PM.png)
+Format: ![Alt Text](url)
