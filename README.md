@@ -52,7 +52,7 @@ function populateFields(){
 _spBodyOnLoadFunctionNames.push("populateFields");
 ```
 
-I replaced "THE TITLE OF YOUR FIELD LOOKUP FIELD" with "Case Number" 
+**I replaced "THE TITLE OF YOUR FIELD LOOKUP FIELD" with "Case Number"**
 
 ```javascript
   $("select[title='Case Number']").val(queryListId("Case Number")).attr('disabled', true);
@@ -65,11 +65,3 @@ I go back to my list, add a new item, and the Case Number field is now populated
 
 ![SP](https://i.ibb.co/5xB8jyY/Screen-Shot-2021-09-09-at-2-12-15-PM.png)
 Format: ![Alt Text](url)
-
-
-
-
-
-
-
-
