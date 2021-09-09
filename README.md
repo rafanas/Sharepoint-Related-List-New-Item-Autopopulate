@@ -1,2 +1,4 @@
-# Sharepoint-List-New-Item-Autofill
-Autofill and disable a child list look-up field for better user experience.
+# Sharepoint-Related-List-New-Item-Autopopulate
+
+This script autopopulates and disable the related look-up field of a list when creating a new item from its parent list for better user experience.
+
