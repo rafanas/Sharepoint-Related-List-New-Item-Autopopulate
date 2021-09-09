@@ -30,7 +30,7 @@ I add a new Web Part and paste the following code:
 
 ```javascript
 /* Get the parent list URL */
-var listUrl = document.referrer;
+const listUrl = document.referrer;
 
 /* We will pass the title of our lookup field to this function and it will pass the ID to the Populate Fields function*/
 function queryListId(){
