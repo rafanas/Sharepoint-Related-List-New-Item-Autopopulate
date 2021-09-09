@@ -50,7 +50,7 @@ function populateFields(){
   $("select[title='THE TITLE OF YOUR FIELD LOOKUP ']").val(queryListId("THE TITLE OF YOUR FIELD LOOKUP ")).attr('disabled', true);
 }
 
-/* Ask Sharepoint to load our functions after loading everything else*/
+/* Ask Sharepoint to load our function after loading everything else*/
 _spBodyOnLoadFunctionNames.push("populateFields");
 </script>
 
