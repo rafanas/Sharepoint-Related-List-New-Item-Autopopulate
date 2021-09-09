@@ -26,16 +26,20 @@ I want to auto-populate the "Case Number" in my form:
 
 I add a new Web Part and paste the following code:
 
-```javascript
+```html
+<!-- Make sure to load the latest jQuery - slim minified version (https://code.jquery.com/)-->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+<script>
 /* Get the parent list URL */
-const listUrl = document.referrer;
+var listUrl = document.referrer;
 
 /* We will pass the title of our lookup field to this function and it will pass the ID to the Populate Fields function*/
 function queryListId(){
   /* Split the parent list url after "&" into separate strings */ 
   const firstSplit = listUrl.split("&");
   /* We know the first string of the new array contains the ID, so we split it again to isolate the ID number */ 
-  const secondSplit = firstSplit[0].split("=");
+  var secondSplit = firstSplit[0].split("=");
   /* Pass the ID number which is the second string in the secondSplit array */
   return secondSplit[1];
 }
@@ -48,6 +52,9 @@ function populateFields(){
 
 /* Ask Sharepoint to load our functions after loading everything else*/
 _spBodyOnLoadFunctionNames.push("populateFields");
+</script>
+
+
 ```
 
 **I replace "THE TITLE OF YOUR FIELD LOOKUP FIELD" with "Case Number"**
