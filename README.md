@@ -9,12 +9,12 @@ This script solves the issue of auto-populating a field on a related list form w
 ## Instructions:
 
 * Open the child form you would like to auto-populate. 
-  * If it opens in a dialog -> go to list settings, advanced settings -> set NO to "Launch forms in a dialog?" (You can set this back to yes after editing the page)
+  * If it opens in a dialog -> Go to list settings, advanced settings -> Set NO to "Launch forms in a dialog?" (You can set this back to yes after editing the page)
 * Click settings -> Edit page
 * Add a Web Part
 * Select Media and Content -> Script editor
 * Paste the contents of file [script.html](https://github.com/rafanas/Sharepoint-Related-List-New-Item-Autopopulate/blob/main/script.html)
-* Replace both instances of THE TITLE OF YOUR FIELD LOOKUP FIELD with the name of your lookup field
+* Replace both instances of THE TITLE OF YOUR FIELD LOOKUP FIELD with the name of your lookup field.
 * **Make sure the web part is at the bottom of the form.**
   * To move it down -> Click Edit Web Part -> Layout -> Set Zone Index 2 or larger depending on the number of web parts.
 * Save
