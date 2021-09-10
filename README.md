@@ -1,6 +1,6 @@
 # Sharepoint-Related-List-New-Item-Autopopulate
 
-This script solves the issue of auto-populating a field on a related list when adding a new item.
+This script solves the issue of auto-populating a field on a related list form when adding a new item.
 
 ## Requirements:
 
